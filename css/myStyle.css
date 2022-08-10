@@ -123,7 +123,7 @@ body {
     text-align: center;
     font-size: xx-large;
 }
-
+/* container for car animation*/
 #carContainer {
     width: 70%;
     position: relative;
@@ -141,7 +141,7 @@ body {
 
 #car {
     position: absolute;
-    top: 70%;
+    top: 60%;
     width: 25%;
     left: -25%;
 }
@@ -253,13 +253,12 @@ body {
    }
 }
 #second {
-    /* min-height: 1440px; */
     display: grid;
     grid-template-columns: 5% 95%;
     justify-items: center;
     font-size: larger;
 }
-
+/* attribute of timeline*/
 #timeline {
     position: sticky;
     height: 100%;
@@ -270,7 +269,7 @@ body {
     margin-top: 1em !important;
     margin-bottom: 1em !important;
 }
-
+/* attribute for the background circle and main circle*/
 .outerCircle {
     position: absolute;
     height: 35px;
@@ -498,7 +497,7 @@ body {
     animation-name: fadeSlide;
     animation-duration: 1.5s;
 }
-
+/* change opacity of slide when pressing arrows*/
 @keyframes fadeSlide {
     from {
         opacity: .4
@@ -530,9 +529,8 @@ body {
     position: relative;
     border: white solid 0.2em;
 }
-
+/* applied to iamges that are nto selected*/
 .darken {
-    /* filter:brightness(50%); */
     animation-name: darkenImg;
     animation-duration: 1s;
     filter: brightness(50%);
@@ -541,7 +539,7 @@ body {
 .hide {
     display: none;
 }
-
+/* animation for when pressing different images in other uses*/
 @keyframes darkenImg {
     from {
         filter: brightness(100%)

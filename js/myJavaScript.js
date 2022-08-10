@@ -150,6 +150,7 @@ if (body != null) {
     images[0].classList.toggle("darken");
     cardistryText.classList.toggle("hide");
     function highlight0() {
+        //toggle darken for the images that were not selected
         header.innerHTML = "Cardistry"
         if (images[0].classList.contains('darken') == true) {
             images[0].classList.toggle("darken");
@@ -160,6 +161,7 @@ if (body != null) {
         if (images[2].classList.contains('darken') != true) {
             images[2].classList.toggle("darken");
         }
+        //hide text for corresponding images that were not select
         if (cardistryText.classList.contains('hide') == true) {
             cardistryText.classList.toggle("hide");
         }
@@ -173,6 +175,7 @@ if (body != null) {
     function highlight1() {
 
         header.innerHTML = "Throwing Cards"
+        //toggle darken for the images that were not selected
         if (images[1].classList.contains('darken') == true) {
             images[1].classList.toggle("darken");
         }
@@ -182,6 +185,7 @@ if (body != null) {
         if (images[2].classList.contains('darken') != true) {
             images[2].classList.toggle("darken");
         }
+         //hide text for corresponding images that were not select
         if (cardistryText.classList.contains('hide') != true) {
             cardistryText.classList.toggle("hide");
         }
@@ -194,6 +198,7 @@ if (body != null) {
     }
     function highlight2() {
         header.innerHTML = "Card Magic"
+        //toggle darken for the images that were not selected
         if (images[2].classList.contains('darken') == true) {
             images[2].classList.toggle("darken");
         }
@@ -203,6 +208,7 @@ if (body != null) {
         if (images[0].classList.contains('darken') != true) {
             images[0].classList.toggle("darken");
         }
+        //hide text for corresponding images that were not select
         if (cardistryText.classList.contains('hide') != true) {
             cardistryText.classList.toggle("hide");
         }
